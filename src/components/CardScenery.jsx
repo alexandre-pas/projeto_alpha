@@ -2,14 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import { withRouter } from "react-router-dom";
-import "../css/Scenery.css";
-
 
 class CardScenery extends React.Component {
   handleRedirectScenery = (event) => {
     const { history } = this.props;
-    console.log(this.props);
-
+    
     history.push(`/Scenery/${event.target.id}`);
   };
 
@@ -44,6 +41,9 @@ CardScenery.propTypes = {
   module: PropTypes.shape({
     description: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
+    redirectUrl: PropTypes.string.isRequired,
+    paragraphScenery: PropTypes.string.isRequired,
+    classScenery: PropTypes.string.isRequired,
   }).isRequired,
 };
 

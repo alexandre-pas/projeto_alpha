@@ -1,25 +1,38 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import { Route, Switch } from 'react-router-dom';
+import Login from './pages/Login';
+import Home from './pages/Home';
+import SignUp from './pages/Login';
+import Profile from './pages/Profile';
+import Scenery from './pages/Scenery';
+import ShoppingCart from './pages/ShoppingCart';
+import SceneryWarriors from './components/scenery/WarriorsOnnaMusha';
+import SceneryMiddleAges from './components/scenery/MiddleAges';
+import SceneryInvertedDream from './components/scenery/InvertedDream';
+import SceneryRemoveBadMemory from './components/scenery/RemoveBadMemory';
+import Calendar from './pages/Calendar';
+import NotFound from './pages/NotFound';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <Switch>
+        <Route exact path="/" component={ Home } />
+        <Route exact path="/login" component={ Login } />
+        <Route exact path="/scenery" component={ Scenery } />
+        <Route exact path="/scenery/warriorsonnamusha" component={ SceneryWarriors } />
+        <Route exact path="/scenery/middleages" component={ SceneryMiddleAges } />
+        <Route exact path="/scenery/inverteddream" component={ SceneryInvertedDream } />
+        <Route exact path="/scenery/removebadmemory" component={ SceneryRemoveBadMemory } />
+        <Route exact path="/shoppingcart" component={ ShoppingCart } />
+        <Route exact path="/signup" component={ SignUp } />
+        <Route exact path="/profile" component={ Profile } />
+        <Route exact path="/calendar" component={ Calendar } />
+        <Route path="*" component={ NotFound } />
+      </Switch>
+    );
+  }
 }
 
 export default App;

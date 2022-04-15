@@ -18,7 +18,7 @@ const contents = [
   {
     id: 3,
     title: "Sonho Invertido",
-    description: "Viva está grande experiência. Onde o mundo será invertido e você tera uma nova perspectiva.",
+    description: "Viva está grande experiência. Onde o mundo será invertido e você terá uma nova perspectiva.",
     redirectUrl: "inverteddream",
     paragraphScenery: "Veja mais...",
     classScenery: "inverteddream",

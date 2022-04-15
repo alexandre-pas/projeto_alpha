@@ -1,21 +1,47 @@
-import React, { Component } from 'react'
-import ImageScenery from "../images/imagem_cenarios.png";
-import Logo from "../images/logo.png";
+import React from "react";
+import { Link } from "react-router-dom";
+import Logo from "../images/logo.svg";
+import ShoppingCart from "../images/shopping-cart.png";
 
-
-
-export default class Header extends Component {
+class Header extends React.Component {
   render() {
     return (
-      <>
-        <header className="Header">
-          <button className="toggle-button" type="button">
-            <img src={ ImageScenery } alt="Toggle sidebar button" />
-          </button>
-          <img src={ Logo } alt="Dreams Tech" />
-          <h4>Dream Tech</h4>
-        </header>
-      </>
-    )
+      <header className="content-header">
+        <nav className="nav-title">
+          <img src={Logo} alt="Logo" />
+          <ul className="nav">
+            <Link to="/">
+              <li>Home</li>
+            </Link>
+            <Link to="/scenery">
+              <li>Dreams Tech</li>
+            </Link>
+            <li>Sobre a Empresa</li>
+            <li>Contatos</li>
+          </ul>
+          <div className="sign-up">
+            <Link to="/login">
+              <button className="button-sign-up  btn-login" type="button">
+                Entrar
+              </button>
+            </Link>
+            <Link to="/signup">
+              <button className="button-sign-up btn-sign-up" type="button">
+                Criar Conta
+              </button>
+            </Link>
+          </div>
+          <div className="shopping-cart">
+            <Link to="/shoppingcart">
+              <button className="btn-shopping-cart" type="button">
+                <img src={ShoppingCart} alt="Carrinho de compra" />
+              </button>
+            </Link>
+          </div>
+        </nav>
+      </header>
+    );
   }
 }
+
+export default Header;

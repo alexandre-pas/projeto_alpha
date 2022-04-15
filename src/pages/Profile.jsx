@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-// import Sidebar from '../components/Sidebar';
+import Sidebar from '../components/Sidebar';
 
 export default class Profile extends Component {
   render() {
     return (
       <>
-        {/* <Sidebar /> */}
+        <Sidebar />
         <div>Profile</div>
 
       </>

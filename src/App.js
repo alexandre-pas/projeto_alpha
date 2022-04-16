@@ -7,11 +7,12 @@ import SignUp from './pages/Login';
 import Profile from './pages/Profile';
 import Scenery from './pages/Scenery';
 import ShoppingCart from './pages/ShoppingCart';
-import SceneryWarriors from './components/scenery/WarriorsOnnaMusha';
-import SceneryMiddleAges from './components/scenery/MiddleAges';
-import SceneryInvertedDream from './components/scenery/InvertedDream';
-import SceneryRemoveBadMemory from './components/scenery/RemoveBadMemory';
+import SceneryWarriors from './pages/WarriorsOnnaMusha';
+import SceneryMiddleAges from './pages/MiddleAges';
+import SceneryInvertedDream from './pages/InvertedDream';
+import SceneryRemoveBadMemory from './pages/RemoveBadMemory';
 import Calendar from './pages/Calendar';
+import Checkout from './components/Checkout';
 import NotFound from './pages/NotFound';
 
 class App extends Component {
@@ -29,6 +30,7 @@ class App extends Component {
         <Route exact path="/signup" component={ SignUp } />
         <Route exact path="/profile" component={ Profile } />
         <Route exact path="/calendar" component={ Calendar } />
+        <Route path="/Checkout" component={ Checkout } />
         <Route path="*" component={ NotFound } />
       </Switch>
     );

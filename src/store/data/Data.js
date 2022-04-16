@@ -25,8 +25,8 @@ const contents = [
   },
   {
     id: 4,
-    title: "Delete  Memória Indesejadas",
-    description: "Ao voltar a realidade não terá mais esta memória indesejada.",
+    title: "Delete  Memórias Indesejadas",
+    description: "Ao voltar a realidade não terá mais está memória indesejada.",
     redirectUrl: "removebadmemory",
     paragraphScenery: "Veja mais...",
     classScenery: "removebadmemory",

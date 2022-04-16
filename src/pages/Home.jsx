@@ -8,8 +8,7 @@ export default class Home extends Component {
   render() {
     return (
       <>
-        <Header title="header" />
-        
+        <Header title="header" />        
         <section>
           <div className="custom-section container">
             <h1 className="title-home">

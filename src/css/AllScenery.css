@@ -1,0 +1,83 @@
+.warriors {
+  background-image: url("../images/background_samurai.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+.inverted {
+  background-image: url("../images/background_iverted_dream.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+.middle {
+  background-image: url("../images/background_middle_ages.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.remove {
+  background-image: url("../images/background_delete_memory.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+/*  todos os cards de texto nos cenarios */
+.card {
+  width: 30%;
+  color: #242424;
+}
+
+.btn-scenery {
+  margin-left: 30%;
+  font-size: 16px;
+}
+
+/*  inverted scenery */
+.title-inverted {
+  font-size: 45px;
+  text-align: center;
+}
+
+.sub-title-inverted {
+  transform: rotate(180deg);
+}
+
+/* --------------------------- */
+
+/* middle scenery */
+.title-middle {
+  font-size: 45px;
+  text-align: center;
+}
+
+.sub-title-middle {
+  font-size: 25px;
+}
+
+/*  ---------------------- */
+
+/* warriors scenery */
+.title-warriors {
+  font-size: 45px;
+  text-align: center;
+}
+
+.sub-title-warriors {
+  font-size: 25px;
+}
+
+/*  ---------------------- */
+
+/* remove scenery */
+.title-deleted {
+  font-size: 45px;
+  text-align: center;
+  color: #fff;
+}
+
+.sub-title-deleted {
+  font-size: 25px;
+  color: #fff;
+}

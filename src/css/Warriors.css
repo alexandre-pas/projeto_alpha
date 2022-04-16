@@ -1,0 +1,16 @@
+.button-scenery {
+  width: 150px;
+  margin: 30px;
+  height: 45px;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  background: #6732d1;
+  border-radius: 5px;
+}
+
+
+.calendar-warriors {
+  background-color: #6732d1;
+  background-size: cover;
+}

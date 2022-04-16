@@ -3,7 +3,8 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { Redirect } from 'react-router-dom';
 import { sendUserInfo } from '../store/actions/index';
-// import '../css/Login.css';
+import Header from '../components/Header';
+import '../css/Login.css';
 
 class Login extends Component {
   state = {
@@ -47,49 +48,56 @@ class Login extends Component {
     const { disabledButton, email, password, linkar } = this.state;
 
     return (
-      <section className="tela-login">
-        { linkar && <Redirect to="/profile" />}
+      <>
+      
+        <Header />
 
-        <div>
+        <section className="tela-login">
+          { linkar && <Redirect to="/profile" />}
 
-          <div className="card-login">
-            <label htmlFor="email" className="user">
-              <input
-                className="user"
-                // data-testid="email-input"
-                type="text"
-                placeholder="Digite seu email"
-                id="email"
-                value={ email }
-                onChange={ this.checkInformation }
-              />
-            </label>
-            <label htmlFor="password" className="user">
-              <input
-                className="user"
-                // data-testid="password-input"
-                onChange={ this.checkInformation }
-                type="password"
-                placeholder="Digite sua senha"
-                value={ password }
-                id="password"
-              />
-            </label>
+          <div className="login-welcome">            
 
-            <button
-              className="user"
-              type="button"
-              // data-testid="login-submit-btn"
-              onClick={ this.handleButton }
-              disabled={ disabledButton }
-            >
-              Enter
-            </button>
+            <div className="card-login">
+              <h1 className="login-title">Login</h1>
+              <label htmlFor="email" className="user">
+                <input
+                  className="user"
+                  // data-testid="email-input"
+                  type="text"
+                  placeholder="Digite seu email"
+                  id="email"
+                  value={ email }
+                  onChange={ this.checkInformation }
+                />
+              </label>
+              <label htmlFor="password" className="user">
+                <input
+                  className="user"
+                  // data-testid="password-input"
+                  onChange={ this.checkInformation }
+                  type="password"
+                  placeholder="Digite sua senha"
+                  value={ password }
+                  id="password"
+                />
+              </label>
+
+              <button
+                className="user-btn user"
+                type="button"
+                // data-testid="login-submit-btn"
+                onClick={ this.handleButton }
+                disabled={ disabledButton }
+              >
+                Entrar
+              </button>
+
+            </div>
+            <div className="welcome">Bem-vindo</div>
 
           </div>
-
-        </div>
-      </section>
+        </section>
+      </>
     );
   }
 }

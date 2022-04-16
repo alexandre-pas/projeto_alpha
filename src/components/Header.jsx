@@ -34,7 +34,7 @@ class Header extends React.Component {
           <div className="shopping-cart">
             <Link to="/shoppingcart">
               <button className="btn-shopping-cart" type="button">
-                <img src={ShoppingCart} alt="Carrinho de compra" />
+                <img src={ ShoppingCart } alt="Carrinho de compra" />
               </button>
             </Link>
           </div>

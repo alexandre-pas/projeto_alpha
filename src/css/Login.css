@@ -1,0 +1,43 @@
+.card-login {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.user {
+  padding: 15px;
+  width: 550px;
+  font-size: 35px;
+  text-align: center;
+  border: 0;
+  border-radius: 5px;
+}
+
+.user-btn {
+  margin-left: 15px;
+  text-align: center;
+}
+
+.login-welcome {
+  display: flex;
+  align-items: center;
+}
+
+.welcome {
+  background-image: url("../images/welcome.svg");
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+  width: 450px;
+  text-align: center;
+  font-size: 35px;
+  text-decoration: underline;
+  border-radius: 5px;
+}
+
+.login-title {
+  text-align: center;
+  font-size: 45px;
+  text-decoration: underline;
+  color: #6732d1;
+}

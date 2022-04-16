@@ -4,13 +4,9 @@
   box-sizing: border-box;
 }
 
-body {
-  font-size: 1.8vw;
-}
-
 .title-home {
   color: #9c7ac5;
-  font-size: 5.55em;
+  font-size: 75px;
   font-family: "Source Serif Pro", sans-serif;
   font-weight: 700;
 }
@@ -19,31 +15,37 @@ body {
   color: #6732d1;
 }
 
-.container {
+.div-home {
   width: 100%;
   max-width: 1300px;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 3.402em;
-  padding-bottom: 3.402em;
-  background-color: #f7f9fa;
+  
 }
 
-.custom-section {
+.home {
   width: 100%;
-  padding-right: 2.98em;
-  padding-left: 2.98em;
-  background-color: #ccc;
+  padding: 30px;
+  width: 55%;
+  display: flex;
+  align-items: center;  
 }
 
-.scenery-image {
+.image-scenery {
   width: 100%;
   max-width: 55%;
-  width: "795";
+  width: 795px;
   max-width: 767px 100vw;
+  display: flex;
+  align-items: center;
 }
 
-.button-scenery {
+.image-all-scenery {
+  height: 450px;
+  margin-left: auto;
+}
+
+.button-home {
   width: 150px;
   height: 45px;
   color: #fff;
@@ -51,4 +53,15 @@ body {
   cursor: pointer;
   background: #6732d1;
   border-radius: 20px;
+}
+
+.content-home {
+  display: flex;
+  flex-direction: column;
+  background-image: url('../images/brain.svg');
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: right;
+  background-size: 60em;
+  margin-right: 50px;
 }

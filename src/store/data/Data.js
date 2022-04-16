@@ -2,7 +2,7 @@ const contents = [
   {
     id: 1,
     title: "Guerreiros Samurais",
-    description: "A Idade Média foi um longo período da história que se estendeu do século V ao século XV.",
+    description: "A Idade Média se estendeu do século V ao século XV.",
     redirectUrl: "warriorsonnamusha",
     paragraphScenery: "Veja mais...",
     classScenery: "warriorsonnamusha",

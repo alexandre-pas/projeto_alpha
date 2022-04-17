@@ -19,10 +19,13 @@ export default class WarriorsOnnaMusha extends Component {
                 idade. Os samurais surgiram durante a consolidação do istema
                 feudal do país.
               </h2>
+              <div className="price">
+                <span>R$ 1.500,00</span>
+              </div>
 
-              <Link to="/calendar">
+              <Link to="/shoppingcart">
                 <button className="button-scenery btn-scenery" type="button">
-                  Agendar Sessão
+                  Adicionar ao carrinho
                 </button>
               </Link>
             </div>

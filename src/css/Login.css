@@ -31,13 +31,11 @@
   width: 450px;
   text-align: center;
   font-size: 35px;
-  text-decoration: underline;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .login-title {
   text-align: center;
   font-size: 45px;
-  text-decoration: underline;
   color: #6732d1;
 }

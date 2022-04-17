@@ -18,11 +18,14 @@ export default class InvertedDream extends Component {
               <h2 className="sub-title-inverted">
                 Venha viver no mundo invertido onde será uma nova realidade e outra perspectiva de mundo.
                 
-              </h2>     
+              </h2>  
+              <div className="price-inverted">
+                <span>R$ 3.000,00</span>  
+              </div>
 
-              <Link to="/calendar">
+              <Link to="/shoppingcart">
                 <button className="button-scenery btn-scenery" type="button">
-                  Agendar Sessão
+                  Adicionar ao carrinho
                 </button>
               </Link>
             </div>

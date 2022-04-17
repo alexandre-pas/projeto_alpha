@@ -26,11 +26,11 @@ class CardScenery extends React.Component {
             {module.paragraphScenery}
           </p>
 
-          <Link to="/shoppingcart">
+          {/* <Link to="/shoppingcart">
             <button className="button-scenery" type="button">
               Adicionar ao carrinho
             </button>
-          </Link>
+          </Link> */}
         </div>
       </article>
     );

@@ -11,10 +11,10 @@ class Header extends React.Component {
           <img src={Logo} alt="Logo" />
           <ul className="nav">
             <Link to="/">
-              <li>Home</li>
+              <li className="customized">Home</li>
             </Link>
             <Link to="/scenery">
-              <li>Dreams Tech</li>
+              <li className="customized">Dreams Tech</li>
             </Link>
             <li>Sobre a Empresa</li>
             <li>Contatos</li>

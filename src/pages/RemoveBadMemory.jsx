@@ -16,10 +16,13 @@ export default class RemoveBadMemory extends Component {
               <h2 className="sub-title-deleted">
               Deletar aquela memória indesejada que você teve.
               </h2>
+              <div className="price">
+                <span>R$ 5.000,00</span>
+              </div>
 
-              <Link to="/calendar">
+              <Link to="/shoppingcart">
                 <button className="button-scenery btn-scenery" type="button">
-                  Agendar Sessão
+                  Adicionar ao carrinho
                 </button>
               </Link>
             </div>

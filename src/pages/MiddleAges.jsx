@@ -21,10 +21,13 @@ export default class MiddleAges extends Component {
                 Império Romano do Ocidente, em 476, e o fim, pela tomada de
                 Constantinopla pelos turcos em 1453.
               </h2>
+              <div className="price-middle">
+                <span>R$ 2.500,00</span>
+              </div>
 
-              <Link to="/calendar">
+              <Link to="/shoppingcart">
                 <button className="button-scenery btn-scenery" type="button">
-                  Agendar Sessão
+                  Adicionar ao carrinho
                 </button>
               </Link>
             </div>

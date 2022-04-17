@@ -73,3 +73,14 @@ ul {
   border: 0;
   cursor: pointer;
 }
+
+.customized {
+  color: #3e3e3e;
+  text-decoration: none;
+  cursor: pointer;
+}
+  
+.customized a:hover {
+  background-color: #6732d1;
+  text-decoration: none;
+}

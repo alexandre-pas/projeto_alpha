@@ -81,3 +81,27 @@
   font-size: 25px;
   color: #fff;
 }
+
+.price {
+  color: #fff;
+  font-size: 35px;  
+  margin-top: 15px;
+  background-color: #242424;
+  text-align: center;
+}
+
+.price-inverted {
+  font-size: 35px;
+  margin-top: 5px;
+  background-color: #242424;
+  text-align: center;
+  color: #fff;
+}
+
+.price-middle {
+  color: #fff;
+  background-color: #242424;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 5px;
+}

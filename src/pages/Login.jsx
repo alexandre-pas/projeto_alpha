@@ -58,7 +58,7 @@ class Login extends Component {
           <div className="login-welcome">            
 
             <div className="card-login">
-              <h1 className="login-title">Login</h1>
+              <h1 className="login-title">Dream Tech</h1>
               <label htmlFor="email" className="user">
                 <input
                   className="user"
@@ -93,7 +93,7 @@ class Login extends Component {
               </button>
 
             </div>
-            <div className="welcome">Bem-vindo</div>
+            <div className="welcome"></div>
 
           </div>
         </section>

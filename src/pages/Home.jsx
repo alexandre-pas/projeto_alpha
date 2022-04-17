@@ -32,9 +32,12 @@ export default class Home extends Component {
             </div>            
           </div>
           <Link to="/scenery">
-              <button className="button-scenery" type="button">
+            <div className="btn-home">
+              <button className="button-home" type="button">
                 Escolher Sonhos
               </button>
+            </div>
+              
           </Link>
         </section>
         {/* <Footer /> */}

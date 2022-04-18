@@ -13,6 +13,7 @@ import SceneryInvertedDream from './pages/InvertedDream';
 import SceneryRemoveBadMemory from './pages/RemoveBadMemory';
 import Calendar from './pages/Calendar';
 import Checkout from './components/Checkout';
+import CartShopping from './components/CartShopping';
 import NotFound from './pages/NotFound';
 
 class App extends Component {
@@ -30,6 +31,7 @@ class App extends Component {
         <Route exact path="/signup" component={ SignUp } />
         <Route exact path="/profile" component={ Profile } />
         <Route exact path="/calendar" component={ Calendar } />
+        <Route exact path="/cartshopping" component={ CartShopping } />
         <Route path="/Checkout" component={ Checkout } />
         <Route path="*" component={ NotFound } />
       </Switch>

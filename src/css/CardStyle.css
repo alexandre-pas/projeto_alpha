@@ -1,0 +1,18 @@
+.image-product {
+  width: 150px;
+  padding: 12px;
+  margin: 10px;
+}
+
+ /* faz card tambem no cenarios especificos */
+.card1 {
+  background: #fff;
+  color: #242424;
+  border: none;
+  box-shadow: 0 1px 4px 0 rgb(71, 71, 71);
+  cursor: pointer;
+  height: 390px;
+  margin-top: 50px;
+  padding: 30px;
+  width: 250px;
+}

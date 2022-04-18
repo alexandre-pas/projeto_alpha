@@ -1,9 +1,13 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Header from '../components/Header';
 
 export default class ShoppingCart extends Component {
   render() {
     return (
-      <div>ShoppingCart</div>
+      <>
+        <Header />
+        <div>ShoppingCart</div>
+      </>
     )
   }
 }

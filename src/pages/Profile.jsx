@@ -1,16 +1,73 @@
-import React, { Component } from 'react';
-import Sidebar from '../components/Sidebar';
-import Header from '../components/Header';
+// import React from 'react';
+// import Sidebar from '../components/Sidebar';
+// import Header from '../components/Header';
+// import { useHistory, Link } from 'react-router-dom';
 
-export default class Profile extends Component {
-  render() {
-    return (
-      <>
-        <Header />
-        <Sidebar />
-        <div>Profile</div>
 
-      </>
-    )
-  }
-}
+// export default function Profile() {
+//   const history = useHistory();
+
+//   // const checkName = () => {
+//   //   if (localStorage.get('user')) {
+//   //     const { name } = JSON.parse(localStorage.getItem('user'));
+//   //     return name;
+//   //   }
+//   //   return '';
+//   // }
+
+//   const checkingEmail = () => {
+//     if (localStorage.getItem('user')) {
+//       const { email } = JSON.parse(localStorage.getItem('user'));
+
+//       return email;
+//     }
+//     return '';
+//   };
+
+//   const logout = () => {
+//     localStorage.clear();
+
+//     history.push('/');
+//   };
+
+//   return (
+//     <section>
+//       <Header title="Profile"/>
+//       <Sidebar />
+
+//       <h1
+//         data-testid="profile-email"
+//       >
+
+//         { checkingEmail() }
+//       </h1>
+
+//       <Link to="/calendar">
+//         <button
+//           type="button"
+//           data-testid="profile-done-btn"
+//         >
+//           Done Recipes
+//         </button>
+//       </Link>
+
+//       <Link to="/scenery">
+//         <button
+//           type="button"
+//           data-testid="profile-favorite-btn"
+//         >
+//           Favorite Recipes
+//         </button>
+//       </Link>
+
+//       <button
+//         type="button"
+//         data-testid="profile-logout-btn"
+//         onClick={ logout }
+//       >
+//         Logout
+//       </button>
+      
+//     </section>
+//   );
+// }

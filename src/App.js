@@ -4,7 +4,7 @@ import { Route, Switch } from 'react-router-dom';
 import Login from './pages/Login';
 import Home from './pages/Home';
 import SignUp from './pages/Login';
-import Profile from './pages/Profile';
+// import Profile from './pages/Profile';
 import Scenery from './pages/Scenery';
 import ShoppingCart from './pages/ShoppingCart';
 import SceneryWarriors from './pages/WarriorsOnnaMusha';
@@ -29,7 +29,7 @@ class App extends Component {
         <Route exact path="/scenery/removebadmemory" component={ SceneryRemoveBadMemory } />
         <Route exact path="/shoppingcart" component={ ShoppingCart } />
         <Route exact path="/signup" component={ SignUp } />
-        <Route exact path="/profile" component={ Profile } />
+        {/* <Route exact path="/profile" component={ Profile } /> */}
         <Route exact path="/calendar" component={ Calendar } />
         <Route exact path="/cartshopping" component={ CartShopping } />
         <Route path="/Checkout" component={ Checkout } />

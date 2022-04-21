@@ -7,3 +7,4 @@ export default class Payment extends Component {
     )
   }
 }
+//  FIXME Alguma coisa 2

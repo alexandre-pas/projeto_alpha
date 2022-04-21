@@ -5,6 +5,7 @@ import "../css/AllScenery.css";
 
 export default class WarriorsOnnaMusha extends Component {
   render() {
+    
     return (
       <>
         <Header />
@@ -16,7 +17,7 @@ export default class WarriorsOnnaMusha extends Component {
               <h2 className="sub-title-warriors">
                 Entre os séculos 12 e 19, famílias de guerreiros formavam os
                 soldados 4 de elite do Japão – o treino começava aos 3 anos de
-                idade. Os samurais surgiram durante a consolidação do istema
+                idade. Os samurais surgiram durante a consolidação do sistema
                 feudal do país.
               </h2>
               <div className="price">

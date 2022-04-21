@@ -9,7 +9,7 @@ export default class Home extends Component {
   render() {
     return (
       <>
-        <Header title="header" />
+        <Header title="header" login={false} />
         <section className="content-home">
           <div className="home">
             <div div-home>
@@ -45,3 +45,5 @@ export default class Home extends Component {
     );
   }
 }
+
+// FIXME Alguma coisa 3

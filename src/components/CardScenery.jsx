@@ -1,13 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { withRouter } from "react-router-dom";
 
 class CardScenery extends React.Component {
   handleRedirectScenery = (event) => {
+    const id = event.target.id 
+    console.log(id)
     const { history } = this.props;
-    
-    history.push(`/Scenery/${event.target.id}`);
+    const urlScenery = `/scenery/${event.target.id}`
+    history.push(urlScenery);
+    console.log("eu",urlScenery)
   };
 
   render() {

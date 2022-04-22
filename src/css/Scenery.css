@@ -44,11 +44,11 @@ article {
   border: 2px solid #e1e5eb;
 }
 
-article:hover {
+/* article:hover {
   transform: translateY(-10px);
   transition: all 0.2s;
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
-}
+} */
 
 .cardScenery {
   color: #242424;
@@ -105,7 +105,6 @@ article:hover {
 
 .paragraphy-scenery {
   margin: 35px;
-  text-decoration: underline;
   color: #6732d1;
   cursor: pointer;
 }

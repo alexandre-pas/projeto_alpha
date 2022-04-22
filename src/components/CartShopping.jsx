@@ -68,6 +68,7 @@ class CartShopping extends React.Component {
   addLess = ({ target }) => {
     const textName =
       target.previousElementSibling.previousElementSibling.textContent;
+      console.log(textName,'euuujh')
     const { nomes } = this.state;
     const ObjChange = nomes.find((produto) => textName === produto.nome);
     const counter = ObjChange.quantity - 1;

@@ -2,8 +2,9 @@ const express = require('express');
 const reqDbClients = require('../req_db/clients');
 const app = express();
 
-app.get('/allclients',reqDbClients.getAllClient);
-app.get('/login',reqDbClients.getLogin)
+app.get('/all',reqDbClients.getAll);
+app.get('/login',reqDbClients.getLogin);
+//app.put('register',reqDbClients.getRegister)
 app.post('/', reqDbClients.postClient);
 
 
